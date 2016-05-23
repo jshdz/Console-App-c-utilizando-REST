@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFOperacionesAritmeticas", "WCFOperacionesAritmeticas\WCFOperacionesAritmeticas.csproj", "{ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{91632E49-DF5D-4EA5-A335-D63D4CBCD20A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C} = {ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8FA360-5BF3-4ECE-A09A-E9C9DBBD967C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91632E49-DF5D-4EA5-A335-D63D4CBCD20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91632E49-DF5D-4EA5-A335-D63D4CBCD20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91632E49-DF5D-4EA5-A335-D63D4CBCD20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91632E49-DF5D-4EA5-A335-D63D4CBCD20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
