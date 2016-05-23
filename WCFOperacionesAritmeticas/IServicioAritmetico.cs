@@ -7,8 +7,7 @@ namespace WCFOperacionesAritmeticas
     [ServiceContract]
     public interface IServicioAritmetico
     {
-        // [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json)]
-        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "procesar/{ptipoOperacion/{pvalor1}/{pvalor2}}")]
+        
         [OperationContract]
         [WebGet(UriTemplate = "/procesar/{ptipoOperacion}/{pvalor1}/{pvalor2}",
             RequestFormat = WebMessageFormat.Json,
